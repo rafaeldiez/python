@@ -4,4 +4,4 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     print("Handling request to home page.")
-    return "Hello, Azure with git integration!"
+    return "Hello, Azure with git integration! Danilo"
